@@ -1,5 +1,16 @@
-$cor-legal: #bada55;
+@import "reset";
 
-.course {
-  color: $cor-legal;
+$myFont: Helvetica, sans-serif;
+$myColor: #bada55;
+$myFontSize: 20px;
+$myWidth: 600px;
+
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+}
+
+.container {
+  width: $myWidth;
 }
